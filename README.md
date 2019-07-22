@@ -19,4 +19,4 @@ Path moving forward to solve without static site generator:
 4b. Assumption is that at this time, images are going to be hosted already on a server. 
 4c. For actual blog page, will simply have html. Should just need content for blog, and images, being hosted, should already be there already. 
 
-###Considerations at this time###
+### considerations at this time ###
