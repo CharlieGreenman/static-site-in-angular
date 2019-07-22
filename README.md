@@ -15,5 +15,8 @@ Path moving forward to solve without static site generator:
 2. There will be a standard for what html classes will look like. 
 3. Use `Strapi` for the headless CMS, and it's api. 
 4. After curl process, `posts` folder, with number 1, until x will populate posts folder. 
-4a. Only part of api needed for blog landing page in this process, is id's, title of blog, img's. Img's put in asset folder for angular app. Knows which one, using parent module. 
-4b. 
+4a. Only part of api needed for blog landing page in this process, is id's, title of blog, and url for images. 
+4b. Assumption is that at this time, images are going to be hosted already on a server. 
+4c. For actual blog page, will simply have html. Should just need content for blog, and images, being hosted, should already be there already. 
+
+===Considerations at this time===
