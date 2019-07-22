@@ -7,5 +7,13 @@ I think this solution would be more scalable, and maintainable than re-writing a
 1. Angular users(and really all people) for simplicity sake, would rather just use Headless CMS, and UI Framework. 
 2. People are only using static site generator on a case per case basis. Would rather use UI framework for rest of page. 
 3. Two areas where static site generation happens. Blog landing page, and and actual blog page. 
-4. Script for curling and cutting out posts directory under blog folder(located in lib folder, using Nrwl's structure) 
-5. Will be on a framework per framework basis. Starting with Hugo. 
+4. Script for curling and cutting out posts directory under blog folder(located in lib folder, using Nrwl's structure).
+5. Using Javascript library, for converting from markdown to html. Static site generators will never be in the equation. 
+
+Path moving forward to solve without static site generator: 
+1. Styles will be contained within container page, e.g. `blog` page.
+2. There will be a standard for what html classes will look like. 
+3. Use `Strapi` for the headless CMS, and it's api. 
+4. After curl process, `posts` folder, with number 1, until x will populate posts folder. 
+4a. Only part of api needed for blog landing page in this process, is id's, title of blog, img's. Img's put in asset folder for angular app. Knows which one, using parent module. 
+4b. 
