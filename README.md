@@ -7,6 +7,8 @@ I think this solution would be more scalable, and maintainable than re-writing a
 1. Angular users(and really all people) for simplicity sake, would rather just use Headless CMS, and UI Framework. 
 2. People are only using static site generator on a case per case basis. Would rather use UI framework for rest of page. 
 3. Two areas where static site generation happens. Blog landing page, and and actual blog page. 
+3a. Blog landing page shouldn't use static site generation, to allow for easier pagination, and no need for pre-rendering. 
+3b. Static site generation for actual blog page. 
 4. Script for curling and cutting out posts directory under blog folder(located in lib folder, using Nrwl's structure).
 5. Using Javascript library, for converting from markdown to html. Static site generators will never be in the equation. 
 
